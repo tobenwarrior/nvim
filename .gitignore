@@ -1,8 +1,51 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
+# Ignore backup files
+*~
+
+# Ignore swap files
+*.swp
+*.swo
+*.swx
+
+# Ignore undo files
+*.un~
+
+# Ignore Neovim directory (if using for session, backups, etc.)
+.nv/
+
+# Ignore plugin-related files (if using a plugin manager like lazy.nvim or others)
+plugin/
+plugged/
+site/
+pack/
+node_modules/
+
+# Ignore session files
+Session.vim
+.viminfo
+
+# Ignore plugin-specific files
+lazy-lock.json
+packer_compiled.lua
+.vimrc~
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore Python virtual environment
+.venv/
+env/
+
+# Ignore compiled files (if compiling any native plugins or dependencies)
+*.o
+*.out
+*.so
+*.dll
+*.exe
+*.dylib
+
+# Ignore custom build artifacts
+build/
+
+# Ignore log files
 *.log
-data
