@@ -1,8 +1,9 @@
--- Set Git Bash as the default terminal
-vim.opt.shell = '"C:\\Program Files\\Git\\bin\\bash.exe"'
+-- Set PowerShell (pwsh.exe) as the default terminal
+vim.opt.shell = '"C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.4.5.0_x64__8wekyb3d8bbwe\\pwsh.exe"'
 vim.opt.shellcmdflag = "-c"
 vim.opt.shellquote = ""
 vim.opt.shellxquote = ""
+
 
 -- Check if lazy.nvim is installed
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
