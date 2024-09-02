@@ -1,6 +1,6 @@
--- Set PowerShell (pwsh.exe) as the default terminal
-vim.opt.shell = '"C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.4.5.0_x64__8wekyb3d8bbwe\\pwsh.exe"'
-vim.opt.shellcmdflag = "-c"
+-- Set PowerShell (powershell.exe) as the default terminal
+vim.opt.shell = '"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"'
+vim.opt.shellcmdflag = "-Command"
 vim.opt.shellquote = ""
 vim.opt.shellxquote = ""
 
