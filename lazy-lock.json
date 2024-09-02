@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "vim-256noir": { "branch": "master", "commit": "e8668a18a4a90272c1cae87e655f8bddc5ac3665" },
 <<<<<<< HEAD
 =======
@@ -64,6 +65,9 @@
   "which-key.nvim": { "branch": "main", "commit": "bfec3d6bc0a9b0b2cb11644642f78c2c3915eef0" },
   "zazen": { "branch": "master", "commit": "5cd00e929df650d66abcb910602e5ebfa50c914a" }
 >>>>>>> parent of a6a7bb7 (add C/C++ support)
+=======
+  "which-key.nvim": { "branch": "main", "commit": "bfec3d6bc0a9b0b2cb11644642f78c2c3915eef0" }
+>>>>>>> parent of f7e86f9 (new theme)
 =======
   "which-key.nvim": { "branch": "main", "commit": "bfec3d6bc0a9b0b2cb11644642f78c2c3915eef0" }
 >>>>>>> parent of f7e86f9 (new theme)
