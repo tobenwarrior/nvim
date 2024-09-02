@@ -29,29 +29,6 @@ require("lazy").setup({
     -- import/override with your plugins
     { import = "plugins" },
 
-    -- Add Catppuccin theme
-    {
-      "catppuccin/nvim",
-      name = "catppuccin", -- Specify the plugin name for lazy loading
-      lazy = false, -- Load the theme on startup
-      priority = 1000, -- Ensure the theme loads before other plugins
-      config = function()
-        require("catppuccin").setup({
-          flavour = "mocha", -- Choose your flavor: latte, frappe, macchiato, mocha
-          transparent_background = false, -- Disable transparent background
-          term_colors = true, -- Use terminal colors
-          styles = {
-            comments = { "italic" },
-            functions = { "bold" },
-            keywords = { "italic" },
-            strings = {},
-            variables = {},
-          },
-        })
-        vim.cmd("colorscheme catppuccin") -- Set the theme
-      end,
-    },
-
     -- Add LSP configurations
     {
       "neovim/nvim-lspconfig",
