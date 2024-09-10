@@ -12,6 +12,12 @@ return {
       "LazyVim/LazyVim",
       opts = {
         colorscheme = "modus",
+        transparent = true,
+        styles =
+        {
+          sidebars = "transparent",
+          floats = "transparent"
+        }
       },
     }
   }
