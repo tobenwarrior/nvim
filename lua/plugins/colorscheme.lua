@@ -1,6 +1,6 @@
 return {
 
-    { "ellisonleao/gruvbox.nvim" },
+    { "morhetz/gruvbox" },
     {"miikanissi/modus-themes.nvim"},
   
     -- currently added themes
@@ -11,13 +11,7 @@ return {
     {
       "LazyVim/LazyVim",
       opts = {
-        colorscheme = "modus",
-        transparent = true,
-        styles =
-        {
-          sidebars = "transparent",
-          floats = "transparent"
-        }
+        colorscheme = "gruvbox",
       },
     }
   }
