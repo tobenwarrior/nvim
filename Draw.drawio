@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="Page-1" id="VcoZenQh05KiuGJkSrTL">
-    <mxGraphModel dx="1381" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="10" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="10" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,73 +107,73 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-1" value="Normal Mode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-1" value="Normal Mode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="312" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-2" value="Idle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-2" value="Idle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="372" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g_HxEOVdp6dAGMoGqxdT-3" target="g_HxEOVdp6dAGMoGqxdT-1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g_HxEOVdp6dAGMoGqxdT-3" target="g_HxEOVdp6dAGMoGqxdT-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g_HxEOVdp6dAGMoGqxdT-3" target="g_HxEOVdp6dAGMoGqxdT-7">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="g_HxEOVdp6dAGMoGqxdT-3" target="g_HxEOVdp6dAGMoGqxdT-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-3" value="Boss4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-3" value="Boss4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1660" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g_HxEOVdp6dAGMoGqxdT-4" target="g_HxEOVdp6dAGMoGqxdT-2">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="g_HxEOVdp6dAGMoGqxdT-4" target="g_HxEOVdp6dAGMoGqxdT-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-4" value="Punch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-4" value="Punch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1380" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g_HxEOVdp6dAGMoGqxdT-5" target="g_HxEOVdp6dAGMoGqxdT-2">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="g_HxEOVdp6dAGMoGqxdT-5" target="g_HxEOVdp6dAGMoGqxdT-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-5" value="Range Attack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-5" value="Range Attack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1620" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-6" value="Walk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-6" value="Walk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="432" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-7" value="Rage Mode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-7" value="Rage Mode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1970" y="312" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-8" value="Idle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-8" value="Idle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1970" y="372" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g_HxEOVdp6dAGMoGqxdT-9" target="g_HxEOVdp6dAGMoGqxdT-8">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="g_HxEOVdp6dAGMoGqxdT-9" target="g_HxEOVdp6dAGMoGqxdT-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-9" value="Hammer&lt;br&gt;&lt;br&gt;when hit the floor player must jump" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-9" value="Hammer&lt;br&gt;&lt;br&gt;when hit the floor player must jump" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1880" y="570" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g_HxEOVdp6dAGMoGqxdT-10" target="g_HxEOVdp6dAGMoGqxdT-23">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="g_HxEOVdp6dAGMoGqxdT-10" target="g_HxEOVdp6dAGMoGqxdT-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-10" value="Lightning attack&lt;br&gt;&lt;br&gt;Part of the floor will drop when use lightning attack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-10" value="Lightning attack&lt;br&gt;&lt;br&gt;Part of the floor will drop when use lightning attack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2070" y="570" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-11" value="Walk for 2 seconds and if not in punch range then use range attack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-11" value="Walk for 2 seconds and if not in punch range then use range attack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1480" y="480" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-16" value="Run" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-16" value="Run" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1970" y="432" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-17" value="Walk for 2 seconds and if not in Hammer range then use Lightning attack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-17" value="Walk for 2 seconds and if not in Hammer range then use Lightning attack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1955" y="480" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-20" value="Invulnerable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-20" value="Invulnerable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2180" y="530" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-21" value="Invulnerable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-21" value="Invulnerable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1690" y="530" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g_HxEOVdp6dAGMoGqxdT-23" target="g_HxEOVdp6dAGMoGqxdT-9">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="g_HxEOVdp6dAGMoGqxdT-23" target="g_HxEOVdp6dAGMoGqxdT-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g_HxEOVdp6dAGMoGqxdT-23" value="Instant Leap then slam the hammer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g_HxEOVdp6dAGMoGqxdT-23" value="Instant Leap then slam the hammer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2070" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
