@@ -1,4 +1,25 @@
 return {
+    -- Catppuccin with Mocha flavor
+    {
+      "catppuccin/nvim",
+      name = "catppuccin",
+      lazy = false,
+      priority = 1000,
+      config = function()
+        require("catppuccin").setup({
+          flavour = "mocha",
+          transparent_background = true, -- Enable transparency
+          -- Optional: Other customizations
+          term_colors = true,
+          integrations = {
+            cmp = true,
+            treesitter = true,
+            telescope = true,
+          },
+        })
+        vim.cmd.colorscheme("catppuccin")
+      end,
+    },
 
     { "morhetz/gruvbox" },
     {"miikanissi/modus-themes.nvim"},
