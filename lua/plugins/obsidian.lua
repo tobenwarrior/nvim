@@ -21,7 +21,7 @@ return {
       workspaces = {
         {
           name = "hehexd",
-          path = "C:/Users/growt/OneDrive/Desktop/iCloudDrive/iCloud~md~obsidian/hehexd",
+          path = "C:/Users/growt/Desktop/iCloudDrive/iCloud~md~obsidian/hehexd",
         },
         -- {
         --   name = "work",

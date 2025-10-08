@@ -1,11 +1,24 @@
--- Set PowerShell (powershell.exe) as the default terminal
-vim.opt.shell = '"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"'
-vim.opt.shellcmdflag = "-Command"
-vim.opt.shellquote = ""
-vim.opt.shellxquote = ""
-
-
 -- Check if lazy.nvim is installed
+-- Check if 'pwsh' is executable and set the shell accordingly
+if vim.fn.executable('pwsh') == 1 then
+  vim.o.shell = 'pwsh'
+else
+  vim.o.shell = 'powershell'
+end
+
+-- Setting shell command flags
+vim.o.shellcmdflag = '-NoLogo -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.UTF8Encoding]::new();$PSDefaultParameterValues[\'Out-File:Encoding\']=\'utf8\';'
+
+-- Setting shell redirection
+vim.o.shellredir = '2>&1 | %{ "$_" } | Out-File %s; exit $LastExitCode'
+
+-- Setting shell pipe
+vim.o.shellpipe = '2>&1 | %{ "$_" } | Tee-Object %s; exit $LastExitCode'
+
+-- Setting shell quote options
+vim.o.shellquote = ''
+vim.o.shellxquote = ''
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
