@@ -90,7 +90,12 @@ return {
       ["enter"] = {},
 
       ---@type fun(question: lc.ui.Question)[]
-      ["question_enter"] = {},
+      ["question_enter"] = {
+        function()
+          -- Disable LSP diagnostics for leetcode files to avoid false errors
+          vim.diagnostic.disable(0)
+        end,
+      },
 
       ---@type fun()[]
       ["leave"] = {},
